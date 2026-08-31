@@ -30,7 +30,18 @@ The public portfolio version has been intentionally separated from the full/priv
 
 The demo is hosted using **GitHub Pages** and deployed automatically through **GitHub Actions**.
 
-**Best way to explore it:** open the live demo and try the complete billing flow using the built-in fictional products and demo data.
+**Best way to explore it:** open the live demo and use the demo credentials below to enter the POS application.
+
+## 🔐 Demo Login Credentials
+
+These credentials are **demo-only credentials** included for accessing the public portfolio demonstration.
+
+| Role | Password |
+|---|---|
+| **Admin** | `1234` |
+| **Cashier** | `0000` |
+
+> ⚠️ These are intentionally simple credentials for the public demo. **Do not use them as real production credentials.** The public application does not contain real user accounts or sensitive authentication data.
 
 ---
 
@@ -142,13 +153,15 @@ The portfolio demo has been prepared specifically for public repository hosting.
 It contains:
 
 - No API keys
-- No passwords or authentication credentials
+- No private production passwords or credentials
 - No private tokens
 - No production database connections
 - No production payment credentials
 - No real customer records
 - No real transaction records
 - No private backend source code
+
+The simple Admin/Cashier passwords listed above are **public demo credentials**, not private secrets.
 
 All demonstration data is fictional.
 
