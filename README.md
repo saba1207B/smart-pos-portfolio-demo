@@ -45,6 +45,19 @@ These credentials are **demo-only credentials** included for accessing the publi
 
 ---
 
+## 🖥️ Dual-Tab POS Display
+
+The web application is designed to demonstrate a **two-tab POS setup**:
+
+- **Admin / Bill Counter tab** — used by the cashier or administrator to manage products, build bills, and operate the POS interface.
+- **Customer Display tab** — presents the customer-facing billing information, cart contents, totals, and demo payment QR information.
+
+The application can be opened in **two browser tabs at the same time**, allowing the bill-counter interface and customer-facing interface to be viewed separately during the demonstration.
+
+> 💡 **Tip:** For the most realistic POS demonstration, open the live application in two browser tabs/windows and use them as the **Bill Counter** and **Customer Display** screens.
+
+---
+
 ## ✨ Key Features
 
 ### 🛒 POS Billing
@@ -73,6 +86,7 @@ These credentials are **demo-only credentials** included for accessing the publi
 - Live cart/total presentation
 - Demo payment QR presentation
 - Designed to demonstrate a two-display POS experience
+- Can be used alongside the Admin/Bill Counter tab
 
 ### 💳 Demo Payment QR
 
@@ -106,6 +120,24 @@ The application provides a reset mechanism so visitors can restore the demo envi
 
 ---
 
+## 📱 Responsive Design & Recommended Devices
+
+The application uses a responsive web interface and can be opened on desktops, laptops, tablets, and Android/mobile browsers. However, the **best visual experience and layout resolution is on a laptop or desktop PC**.
+
+Because the POS interface contains multiple panels, tables, controls, and billing information, the layout may appear differently on smaller tablet or Android screens. On some smaller displays, **vertical scrolling may be required to access controls or sections further down the page**.
+
+This is an expected limitation of the public portfolio demo and does not represent the target desktop POS layout.
+
+**Recommended experience:**
+
+- 🖥️ **Desktop PC / Laptop:** Best layout, resolution, and overall experience
+- 📱 **Tablet:** Supported, but some sections may require scrolling
+- 📱 **Android / Mobile:** Accessible for demonstration, but the interface may require more frequent vertical scrolling because of the smaller screen size
+
+For evaluating the complete POS interface, the **laptop/desktop version is recommended**.
+
+---
+
 ## 🛠️ Technology Stack
 
 | Technology | Purpose |
@@ -126,20 +158,22 @@ The application provides a reset mechanism so visitors can restore the demo envi
 The public portfolio demo is intentionally **frontend-only**.
 
 ```text
-┌──────────────────────────────┐
-│       React POS Interface    │
-├──────────────────────────────┤
-│ Product Search / Cart / POS  │
-│ Customer Display / Receipt   │
-│ Dashboard / Analytics        │
-│ Camera Scanner               │
-├──────────────────────────────┤
-│      Browser Storage         │
-│       LocalStorage           │
-└──────────────────────────────┘
-              │
-              ▼
-       GitHub Pages Hosting
+┌────────────────────────────────────┐
+│          React POS Interface       │
+├────────────────────────────────────┤
+│ Admin / Bill Counter Tab           │
+│ Customer Display Tab               │
+│ Product Search / Cart / POS        │
+│ Customer Display / Receipt         │
+│ Dashboard / Analytics              │
+│ Camera Scanner                     │
+├────────────────────────────────────┤
+│          Browser Storage           │
+│           LocalStorage             │
+└────────────────────────────────────┘
+                 │
+                 ▼
+          GitHub Pages Hosting
 ```
 
 There is no production backend, production database, payment gateway, or real customer information in this public demonstration.
@@ -167,13 +201,15 @@ All demonstration data is fictional.
 
 ---
 
-## 📱 Browser & Device Support
+## 🌐 Browser & Device Support
 
 The demo is designed to work across modern browsers, including desktop and mobile browsers.
 
-For the best experience, use an up-to-date version of **Chrome, Edge, Firefox, or another modern Chromium-based browser**.
+For the best experience, use an up-to-date version of **Chrome, Edge, Firefox, or another modern Chromium-based browser**, preferably on a laptop or desktop PC.
 
 Camera scanning requires a compatible device/browser and permission to access the camera.
+
+On smaller tablet and Android screens, some interface sections may require vertical scrolling because the application is optimized primarily for the larger desktop/laptop POS layout.
 
 ---
 
@@ -288,6 +324,8 @@ The following are intentionally excluded from the public demo:
 
 Some capabilities may therefore behave differently from the full/private application.
 
+The public interface is primarily optimized for **laptop and desktop screens**. Tablet and Android/mobile displays may require additional vertical scrolling due to their smaller screen dimensions.
+
 ---
 
 ## 🔮 Potential Future Enhancements
@@ -303,6 +341,7 @@ Possible future development areas include:
 - Multi-terminal synchronization
 - Hardware/peripheral integration
 - Improved offline synchronization
+- Further responsive-layout optimization for smaller screens
 
 These are future development concepts and are **not claims that the public demo currently provides these capabilities**.
 
@@ -328,6 +367,7 @@ This project demonstrates practical experience with:
 - Frontend application architecture
 - React component development
 - POS/billing workflow design
+- Two-tab customer and bill-counter interface design
 - State and browser-storage management
 - Form and calculation logic
 - Responsive UI development
