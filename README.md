@@ -39,6 +39,22 @@ The public repository intentionally excludes private production systems, databas
 
 ---
 
+## 📸 Application Preview
+
+These are **real screenshots of the portfolio application** included in this repository.
+
+### 🔐 Login Panel
+
+![Smart POS Login Panel](screenshots/Screenshot%202026-08-31%20204039.png)
+
+### 🧾 POS Application Interface
+
+![Smart POS Application Interface](screenshots/Screenshot%202026-08-31%20204108.png)
+
+> 💡 The live demo provides the full interactive experience. The screenshots above are included so recruiters and visitors can immediately see the application UI before opening the demo.
+
+---
+
 ## 👨‍💻 What I Built
 
 This project demonstrates my ability to design and implement:
@@ -197,22 +213,6 @@ The source code demonstrates several practical frontend techniques:
 ### Challenge 5 — Public portfolio deployment
 
 **Solution:** The project is built with Vite and deployed automatically to GitHub Pages using GitHub Actions.
-
----
-
-## 📸 Application Preview
-
-The repository is intended to showcase the **actual running application** through the live demo above.
-
-For the strongest visual presentation, the recommended portfolio screenshots are:
-
-1. **Admin / Bill Counter interface**
-2. **Customer Display interface**
-3. **Billing / Checkout screen**
-4. **Dashboard / Analytics screen**
-5. **Two-window customer + bill-counter setup**
-
-> 📌 **Portfolio note:** Actual application screenshots should be added to the repository's `docs/images/` folder when available. They should show the real application UI rather than generated mockups.
 
 ---
 
@@ -386,7 +386,6 @@ It contains no:
 - Real payment credentials
 - Real customer records
 - Real transaction records
-- Private production backend code
 
 All demonstration information is fictional.
 
@@ -435,6 +434,10 @@ smart-pos-portfolio-demo/
 │   └── workflows/
 │       └── deploy.yml
 ├── public/
+├── screenshots/
+│   ├── Screenshot 2026-08-31 204039.png
+│   ├── Screenshot 2026-08-31 204108.png
+│   └── README.md
 ├── src/
 │   ├── App.jsx
 │   ├── CameraScanner.jsx
