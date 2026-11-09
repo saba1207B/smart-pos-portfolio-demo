@@ -1,3 +1,18 @@
+<!-- SABAREESH COPYRIGHT NOTICE START -->
+
+> **Copyright © 2026 Sabareesh M (@saba1207B). All Rights Reserved.**
+>
+> Original work in this repository is protected by copyright.
+> No public license is granted for that original work.
+> Unauthorized copying, modification, redistribution, commercial use,
+> or AI/ML training use is prohibited without prior written permission.
+>
+> See [COPYRIGHT](COPYRIGHT) and [LICENSE](LICENSE).
+>
+> **Third-party materials remain subject to their respective licenses.**
+
+<!-- SABAREESH COPYRIGHT NOTICE END -->
+
 ⚠️ STRICT COPYRIGHT NOTICE — ALL RIGHTS RESERVED
 Copyright © 2026 Sabareesh M (saba1207B)
 
